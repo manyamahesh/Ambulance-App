@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Product">
+
+    <EditText
+        android:id="@+id/p661"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Charges"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/p551"
+        app:layout_constraintTop_toBottomOf="@+id/p551" />
+
+    <EditText
+        android:id="@+id/p551"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ambulance Type"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/p4"
+        app:layout_constraintTop_toBottomOf="@+id/p4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:text="Add Ambulance Details"
+        android:textColor="#090000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Enter VehNo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Driver Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <EditText
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Driver Contact"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/p2"
+        app:layout_constraintTop_toBottomOf="@+id/p2" />
+
+    <EditText
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ambulance Size"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/p3"
+        app:layout_constraintTop_toBottomOf="@+id/p3" />
+
+    <Button
+        android:id="@+id/p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Save"
+        app:layout_constraintEnd_toStartOf="@+id/p6"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p771" />
+
+    <Button
+        android:id="@+id/p6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/p5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/p5" />
+
+    <EditText
+        android:id="@+id/p771"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/p661"
+        app:layout_constraintTop_toBottomOf="@+id/p661" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

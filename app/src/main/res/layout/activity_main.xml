@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="357dp"
+        android:layout_height="0dp"
+        android:text="User  Login"
+        app:layout_constraintBottom_toTopOf="@+id/custlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnview" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="363dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="        AMBULANCE BOOKING"
+        android:textColor="#DF0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnview3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/custlogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Admin Login"
+        app:layout_constraintBottom_toTopOf="@+id/drb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn" />
+
+    <Button
+        android:id="@+id/drb"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="236dp"
+        android:text="Quick Booking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custlogin" />
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="357dp"
+        android:layout_height="0dp"
+        android:text="View Booked Ambulance"
+        app:layout_constraintBottom_toTopOf="@+id/loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnview2" />
+
+    <Button
+        android:id="@+id/btnview2"
+        android:layout_width="357dp"
+        android:layout_height="0dp"
+        android:text="View Nearby Ambulance"
+        app:layout_constraintBottom_toTopOf="@+id/btnview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnview3" />
+
+    <Button
+        android:id="@+id/btnview3"
+        android:layout_width="357dp"
+        android:layout_height="0dp"
+        android:text="View Map"
+        app:layout_constraintBottom_toTopOf="@+id/btnview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
